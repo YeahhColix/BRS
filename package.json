@@ -1,0 +1,17 @@
+{
+  "name": "aoijs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@akarui/aoi.db": "^2.3.3",
+    "aoi.db": "^1.1.1",
+    "aoi.js": "^6.8.5"
+  },
+  "description": ""
+}
