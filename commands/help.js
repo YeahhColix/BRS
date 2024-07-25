@@ -1,5 +1,4 @@
-module.exports = [{
-    name: "help",
+module.exports = [{    name: "help",
     code: `
     $sendMessage[
 $title[BRS Commands]

@@ -1,8 +1,9 @@
 const { AoiClient, LoadCommands } = require("aoi.js");
+const botToken = process.env.brsToken
 
 const client = new AoiClient({
-  token: "MTI2NTkxMDEzMTgyOTI0ODA0MA.GrmiLf.YsgQbm6dwkMLbzOy_MtaeGcuV14b0a8oDfsHyY",
-  prefix: "BRS_",
+  token: botToken,
+  prefix: "<@1265910131829248040>_",
   intents: ["MessageContent", "Guilds", "GuildMessages"],
   events: ["onMessage", "onInteractionCreate"],
   database: {
