@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@akarui/aoi.db": "^2.3.3",
+    "@igorkowalczyk/repl-uptime": "^1.5.2",
     "aoi.db": "^1.1.1",
     "aoi.js": "^6.8.5"
   },

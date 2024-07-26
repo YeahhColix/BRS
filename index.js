@@ -15,9 +15,12 @@ const client = new AoiClient({
   }
 });
 
-client.command({
-name: "ping",
-code: `Pong! $pingms`
+
+client.status({
+    name: "commands | @BRS_",
+    type: "LISTENING",
+    status: "idle",
+    time: 78
 });
 
 
